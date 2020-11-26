@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(28,28,28);
+    margin-left: 5%;
+    padding: 0;
+}
+
+nav{
+    height: 10vh;
+    width: 100%;
+    margin: auto;
+    background-color: rgb(22,22,22);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px 0;
+}
+input {
+    
+    color: white;
+    background-color: grey;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+    margin: 10px;
+    color: white;
+}
+
+.champ {
+    height: 30px;
+  width: 500px;
+  font-size: 1.5em;
+  
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 70px;
+    margin-left: 30px;
+    
+}
+
+.bouton {
+
+    height: 37px;
+    margin-right: 0;
+    
+}
+
+::placeholder {
+    color: white;
+    
+}
+
+.texte li {
+
+    color: grey;
+    flex-direction: row;
+   
+
+}
+
+.texte li:hover {
+    text-decoration: underline;
+    
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h3 {
+    color:aqua;
+}
+
+h3:hover {
+    text-decoration: underline;
+}
+
+h4 {
+    color:brown;
+    
+}
+
+h4:hover {
+    text-decoration: underline;
+}
+
+.article {
+    background-color:  rgb(28,28,28);;
+    margin-left: 45px;
+width: 27%;
+
+
+}
+
+p {
+    color: white;
+}
+
+.article2 {
+    background-color: g rgb(28,28,28);;
+    margin-left: 45px;
+width: 27%;
+}
+
+.photos img {
+    width: 130px;
+    height: 130px;
+    display: flex;
+    
+}
+
+
+h1 {
+    color: white;
+}
+
+
+.carré {
+
+    width: 70%;
+    
+
+}
+.carré img {
+    float: right;
+    width: 100px;
+    
+}
+aside {
+    width: 40%;
+    padding-left: .5rem;
+    margin-left: .5rem;
+    float: right;
+    box-shadow: inset 5px 0 5px -5px #29627e;
+    font-style: italic;
+    color: #29627e;
+    background-color:  rgb(51,51,51);
+}
+
